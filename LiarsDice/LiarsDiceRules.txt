@@ -1,0 +1,14 @@
+LIAR'S DICE
+
+(At least two players required to play)
+
+Rules:
+
+*Each player begins with a set of 5 dice. All the sets are collectively the pool.
+*Begin each round by rolling the dice and hiding your roll. You can only view your own dice.
+*Call out your guess as a comma-separated list of integers. e.g. 2,5 means there are at least two fives in the pool.
+*Each subsequent player has two options: Make another guess or call out the liar.
+*Making another guess: The first number must be increased. Subsequent guesses are independent of the face value. So, the following are all valid guesses after 2,5 - 3,5 | 3,3 | 4,6 - but the following are invalid - 1,5 | 2,6.
+*Call out: All the dice in the pool are revealed and the guess is evaluated as true/false. If the last guess was correct, the player who called out the lie loses. If it wasn't, the player who made the guess loses.
+*The losing player continues with one less die.
+*The last man standing (with any dice left in play) wins.
